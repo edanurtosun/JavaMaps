@@ -46,8 +46,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //lat -> lattitude -> enlem
         //lon -> longitude -> boylam
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
+        //48.8582537,2.2939906
+        LatLng eiffel = new LatLng(48.8582537,2.2939906);
+        mMap.addMarker(new MarkerOptions().position(eiffel).title("Eiffel Tower"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(eiffel, 15));
     }
 }
