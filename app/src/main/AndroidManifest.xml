@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JavaMaps">
-        <activity android:name=".MainActivity"
+        <activity android:name=".view.MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -38,7 +38,7 @@
             android:value="AIzaSyAqbErxuKqpeQ6na274ly9aa3-nqBnf1ZM" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".view.MapsActivity"
             android:label="Map">
         </activity>
     </application>
